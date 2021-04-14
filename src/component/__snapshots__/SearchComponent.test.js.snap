@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test search component renders search component correctly 1`] = `
+<div
+  className="Search"
+>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <button
+    className="Search-button"
+    onClick={[Function]}
+  >
+    Search
+  </button>
+  <div
+    className="Search-grid"
+  >
+    <div
+      className="ag-theme-alpine"
+      style={
+        Object {
+          "height": 800,
+          "width": 600,
+        }
+      }
+    >
+      <AgGridReact
+        disableStaticMarkup={false}
+        legacyComponentRendering={false}
+        maxComponentCreationTimeMs={1000}
+      >
+        <AgGridColumn
+          field="countryName"
+          headerName="Country"
+        />
+        <AgGridColumn
+          field="population"
+          headerName="Total Population"
+          sortable={true}
+        />
+        <AgGridColumn
+          field="gdpValue"
+          headerName="GDP (current US$)"
+          sortable={true}
+        />
+      </AgGridReact>
+    </div>
+  </div>
+</div>
+`;

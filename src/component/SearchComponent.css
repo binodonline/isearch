@@ -1,0 +1,17 @@
+.Search {
+  align-content: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.Search-button {
+  background-color: #1156e2;
+  color: white;
+  margin: 10px;
+}
+
+.Search-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
